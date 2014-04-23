@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A2795871907A5A600D2C070 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2795861907A5A600D2C070 /* 1.png */; };
 		4A34F2EC1907914F0040078D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A34F2EB1907914F0040078D /* Foundation.framework */; };
 		4A34F2EE1907914F0040078D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A34F2ED1907914F0040078D /* CoreGraphics.framework */; };
 		4A34F2F01907914F0040078D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A34F2EF1907914F0040078D /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		4A34F30D1907914F0040078D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A34F2EF1907914F0040078D /* UIKit.framework */; };
 		4A34F3151907914F0040078D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A34F3131907914F0040078D /* InfoPlist.strings */; };
 		4A34F3171907914F0040078D /* CanvasDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A34F3161907914F0040078D /* CanvasDemoTests.m */; };
+		5A1EA035820C40E0A8DE0E65 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB012A717D7A47E888D5C2A4 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A2795861907A5A600D2C070 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		4A34F2E81907914F0040078D /* CanvasDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanvasDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A34F2EB1907914F0040078D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4A34F2ED1907914F0040078D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +56,8 @@
 		4A34F3121907914F0040078D /* CanvasDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CanvasDemoTests-Info.plist"; sourceTree = "<group>"; };
 		4A34F3141907914F0040078D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4A34F3161907914F0040078D /* CanvasDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasDemoTests.m; sourceTree = "<group>"; };
+		7286A533973249BBB5B3A75A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		CB012A717D7A47E888D5C2A4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,7 @@
 				4A34F2EE1907914F0040078D /* CoreGraphics.framework in Frameworks */,
 				4A34F2F01907914F0040078D /* UIKit.framework in Frameworks */,
 				4A34F2EC1907914F0040078D /* Foundation.framework in Frameworks */,
+				5A1EA035820C40E0A8DE0E65 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +92,7 @@
 				4A34F3101907914F0040078D /* CanvasDemoTests */,
 				4A34F2EA1907914F0040078D /* Frameworks */,
 				4A34F2E91907914F0040078D /* Products */,
+				7286A533973249BBB5B3A75A /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +112,7 @@
 				4A34F2ED1907914F0040078D /* CoreGraphics.framework */,
 				4A34F2EF1907914F0040078D /* UIKit.framework */,
 				4A34F30A1907914F0040078D /* XCTest.framework */,
+				CB012A717D7A47E888D5C2A4 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,6 +120,7 @@
 		4A34F2F11907914F0040078D /* CanvasDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4A2795861907A5A600D2C070 /* 1.png */,
 				4A34F2FA1907914F0040078D /* AppDelegate.h */,
 				4A34F2FB1907914F0040078D /* AppDelegate.m */,
 				4A34F2FD1907914F0040078D /* Main.storyboard */,
@@ -159,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A34F31A1907914F0040078D /* Build configuration list for PBXNativeTarget "CanvasDemo" */;
 			buildPhases = (
+				018B7B4EAF014D34B3816922 /* Check Pods Manifest.lock */,
 				4A34F2E41907914F0040078D /* Sources */,
 				4A34F2E51907914F0040078D /* Frameworks */,
 				4A34F2E61907914F0040078D /* Resources */,
+				DB43942A77934086A1BA1F9B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A34F3041907914F0040078D /* Images.xcassets in Resources */,
+				4A2795871907A5A600D2C070 /* 1.png in Resources */,
 				4A34F2F61907914F0040078D /* InfoPlist.strings in Resources */,
 				4A34F2FF1907914F0040078D /* Main.storyboard in Resources */,
 			);
@@ -243,6 +255,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		018B7B4EAF014D34B3816922 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB43942A77934086A1BA1F9B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4A34F2E41907914F0040078D /* Sources */ = {
@@ -373,6 +418,7 @@
 		};
 		4A34F31B1907914F0040078D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7286A533973249BBB5B3A75A /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -386,6 +432,7 @@
 		};
 		4A34F31C1907914F0040078D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7286A533973249BBB5B3A75A /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -456,6 +503,7 @@
 				4A34F31C1907914F0040078D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A34F31D1907914F0040078D /* Build configuration list for PBXNativeTarget "CanvasDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +512,7 @@
 				4A34F31F1907914F0040078D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

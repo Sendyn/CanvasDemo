@@ -7,18 +7,30 @@
 //
 
 #import "ViewController.h"
-
+#import <CSAnimation.h>
+#import <CSAnimationView.h>
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
+
+
+- (IBAction)showAnimation:(id)sender {
+    
+    [self.view startCanvasAnimation];
+    
+}
+
+
 
 - (void)didReceiveMemoryWarning
 {
